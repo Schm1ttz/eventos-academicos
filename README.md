@@ -62,20 +62,21 @@ ________________________________________________________________________________
 
 Instalação e Configuração
 1. Clone o repositório:
+(o arquivo .zip está dentro de outro arquivo .zip para que o github aceitasse o tamanho do projeto inteiro)
 git clone https://github.com/Schm1ttz/eventos-academicos (2).zip
 cd eventos-academicos
 
 
-2. Instale as dependências:
+3. Instale as dependências:
 composer install
 
 
-3. Configure o ambiente:
+4. Configure o ambiente:
 cp .env.example .env
 php artisan key:generate
 
 
-4. Configure o banco de dados
+5. Configure o banco de dados
 Edite o arquivo .env:
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -85,7 +86,7 @@ DB_USERNAME=root
 DB_PASSWORD=
 
 
-5. Execute as migrations:
+6. Execute as migrations:
 php artisan migrate
 
 
