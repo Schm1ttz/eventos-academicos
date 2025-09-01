@@ -62,7 +62,7 @@ ________________________________________________________________________________
 
 Instalação e Configuração
 1. Clone o repositório:
-git clone https://github.com/Schm1ttz/eventos-academicos.git
+git clone https://github.com/Schm1ttz/eventos-academicos (2).zip
 cd eventos-academicos
 
 
